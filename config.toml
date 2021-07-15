@@ -1,0 +1,280 @@
+# Page settings
+
+baseURL = "https://oelouazi-net.techcode.io/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Oualid elouazi"
+        tagline = "Ingénieur Informatique - Réseaux & Développement"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Marrakech"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+212 6 09 44 03 37"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "oelouazi@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://github.com/oelouazi"
+        text = "github.com/oelouazi"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technique"
+        [[params.skills.list.items]]
+        details = "Java8/Python3"
+        [[params.skills.list.items]]
+        details = "Spring Boot2.3 / Bootstrap"
+         [[params.skills.list.items]]
+        details = "SQL/MySQL/SQLite"
+        [[params.skills.list.items]]
+        details = "Pycharm/Eclipse"
+        [[params.skills.list.items]]
+        details = "LDAP/DNS/DHCP/FTP/Web/Django"
+        [[params.skills.list.items]]
+        details = "Réseau/Switch/Routeur"
+        [[params.skills.list.items]]
+        details = "GNS3/VMWare"
+        
+       
+
+        [[params.skills.list]]
+        title = "Professionelle"
+        [[params.skills.list.items]]
+        details = "Autonome"
+        [[params.skills.list.items]]
+        details = "Esprit d'équipe"
+        [[params.skills.list.items]]
+        details = "Résolution de problèmes"
+        [[params.skills.list.items]]
+        details = "Curieux"
+
+    [params.education]
+        enable = false
+
+        [[params.education.list]]
+        degree = "Génie Télécomunication & Réseaux"
+        university = "Safi"
+        dates = "2018 - Présent"
+        [[params.education.list]]
+        degree = "CNC - Physique Chimie & Sciences de l’ingénieure"
+        university = "Marrakech"
+        dates = "2016 - 2018"
+
+    [params.awards]
+        enable = true
+        
+        [[params.awards.list]]
+        name = "Cyber Security Foundation Professional Certificate"
+        body = "CertiProf"
+        date = "12/2020"
+        
+        [[params.awards.list]]
+        name = "sécurité réseau "
+        body = "Fortinet NSE1 "
+        date = "11/2020"
+        
+        [[params.awards.list]]
+        name = "Application web avec Django"
+        body = "Udemy"
+        date = "10/2020"
+        
+        
+        [[params.awards.list]]
+        name = "Découvrir Git "
+        body = "Linkedin LEARNING"
+        date = "11/2020"
+        
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Arabe"
+        level = "Natif"
+        [[params.languages.list]]
+        name = "Français"
+        level = "Professionelle ,TCF : C1"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Professionelle"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Manga"
+        [[params.interests.list]]
+        name = "Programmation"
+        [[params.interests.list]]
+        name = "Sport"
+
+    [params.summary]
+        enable = true
+        text = """
+Je souhaite poursuivre mon évolution professionelle dans le domaine de Sécurité et administration réseau .
+* Conception et développement des applications.  
+* Réalisation des tests unitaires .
+* Sécurisation des modules.
+"""
+
+    [params.experience]
+        enable = true
+        [[params.experience.list]]
+        title = "implémentation du Machine learning et de l'IOT dans le DATACENTER "
+        dates = "mai 2021"
+        company = "ONEE rabat branche eau"
+        details = """
+* Utilisation des programmes python machine learning pour proteger et sécuriser le DATACENTER de l'ONEE.
+* `Technologies:` Pycharm , cognetive service , microsoft azure ,Azure IOT.
+"""
+        [[params.experience.list]]
+        title = "Application web par Django"
+        dates = "Février 2019"
+        company = "ONEE"
+        details = """
+* Création d'une app web en utilisant Django qui permette de lister des fonctionnalité AI comme reconnaissance faciale , détection d'objets ,traduction.
+* `Technologies:` Pycharm, Nice page
+"""
+ [[params.experience.list]]
+        title = "flotteur"
+        dates = "Février 2019"
+        company = "ONEE"
+        details = """
+* protection d'un flotteur qui permet d'avoir de l'énergie électrique en utilisant un programme python.
+* `Technologies:` Pycharm, Nice page
+"""
+
+         [[params.experience.list]]
+        title = "Smart-Home Application"
+        dates = "Février 2019"
+        company = "Projet"
+        details = """
+* Simulation des détecteurs de mouvements, de température et de gaz pour la préventions et le suivi à distance.
+* `Technologies:` Puce Magnétique, Tinker Card, Arduino
+"""
+
+        
+        [[params.experience.list]]
+        title = "Configuration & Administration systèmes"
+        dates = "Mai 2019"
+        company = "Projet"
+        details = """
+* Installation d’une stack LAMP avec la mise en place d ’un serveur SMTP et la mise en place d’un serveur FTP. Configuration d’une zone démilitarisé.
+* `Technologies:` Apache, FTP, DHCP, Postfix
+"""
+
+[[params.experience.list]]
+        title = "Attacks - Sécurité STP & Vlans"
+        dates = "Avril-Mai 2019"
+        company = "Projet"
+        details = """
+* Étude détaillée de la couche de liaison en se focalisant sur la protocole STP et DTP.
+* Étude de l’ algorithme spanning tree et test sur le vulnérabilités STP avec simulation des attaques ( Man in the middle / spoofing ).
+* Mise en place de contre mesures.
+* `Technologies:` STP, Wireshark, Vlans Attacks via DTP
+"""
+        
+        
+         [[params.experience.list]]
+        title = "Application de Gestion Familiale"
+        dates = "Mai 2020"
+        company = "Projet"
+        details = """
+* Développement d'une application en Java qui permet de gérer un arbre généalogique.
+* Déclaration des naissances, des décès ou autres changements.
+* `Technologies:`  Java8, MySQL10, Eclipse, Git
+"""
+
+ [[params.experience.list]]
+        title = "Application Web de suivie de l'évolution des devises"
+        dates = "Mars 2020 "
+        company = "Projet"
+        details = """
+* Développement d'une application Web qui permet le suivi de l'évolution de la bourse.
+* Suivi par jour, semaine ou mois.
+* `Technologies:`  Python 3.9, Django2.2, Pycharm,Git
+"""
+
+        [[params.experience.list]]
+        title = "Application de convertion d'image"
+        dates = "Août 2019"
+        company = "Projet"
+        details = """
+* Développement d'un application permettant la conversion d'image d'un format vers le format jpg.
+* `Technologies:`  Python 3.9, Pycharm , Git
+"""
+
+        
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "E.N.S.A - Génie Télécomunication & Réseaux"
+        meta = "Safi | 2018 - Présent"
+        tagline = """
+* Programmation d'application web en python
+* Administration système & réseaux
+* Programmation d'applications en Java Avancée
+* Conception et développement des applications
+* Analyse des systèmes numériques & analogiques
+
+* Etudes des microprocesseurs
+"""
+
+        [[params.projects.list]]
+        title = "CNC - Physique Chimie & Sciences de l'ingénieure"
+        meta = "Marrakech | 2016 - 2018"
+        tagline = """
+* Classes préparatoires aux grandes écoles IBN Taymia
+"""
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/oelouazi"
+        title = "oelouazi"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/oualid-elouazi-1b9060195/"
+        title = "oelouazi"
